@@ -1,8 +1,12 @@
+import Authors from './Authors';
+import Books from './Books';
 import './App.css'
-import Books from './Books'
 
-function App() {
-  return <Books />;
+export default function App() {
+  return (
+    <div>
+      <Authors />
+      <Books />
+    </div>
+  );
 }
-
-export default App;
